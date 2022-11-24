@@ -88,6 +88,14 @@ public class Main {
 
   public static void cadastrarProduto(Scanner sc){
     System.out.println("Digite o tipo do produto: [Tijolo][Tubo][Cabo]");
+    String tipo = sc.next();
+    if(sc.equals("Tijolo")){
+
+    }else if(sc.equals("Tubo")){
+
+    }else{
+      
+    }
     System.out.println("Digite o nome do produto: ");
     String nome = sc.next();
     System.out.println("Digite o valor do produto: ");
